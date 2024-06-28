@@ -39,8 +39,7 @@ public class KartController : KartComponent
     public bool IsHopping => !HopTimer.ExpiredOrNotRunning(Runner);
     public bool CanDrive = true;
     //public bool CanDrive => HasStartedRace && !HasFinishedRace && !IsSpinout && !IsBumped && !IsBackfire;
-    public bool HasFinishedRace => Kart.LapController.EndRaceTick != 0;
-    public bool HasStartedRace => Kart.LapController.StartRaceTick != 0;
+
     public float BoostTime => BoostEndTick == -1 ? 0f : (BoostEndTick - Runner.Tick) * Runner.DeltaTime;
     private float RealSpeed => transform.InverseTransformDirection(Rigidbody.velocity).z;
     public bool IsDrifting => IsDriftingLeft || IsDriftingRight;
@@ -135,7 +134,7 @@ public class KartController : KartComponent
     private void Update()
     {
         GroundNormalRotation();
-       /* UpdateTireRotation();
+        UpdateTireRotation();
         if (CanDrive)
             Move();
         else
@@ -147,7 +146,7 @@ public class KartController : KartComponent
         Drift();
         Steer();
         UpdateTireYaw();
-        UseItems();*/
+        UseItems();
     }
 
     private void OnCollisionStay(Collision collision)
@@ -228,7 +227,7 @@ public class KartController : KartComponent
 
     private void HandleStartRace()
     {
-        if (!HasStartedRace)
+        if (!CanDrive)
         {
             // Block user input until the race starts
             RefreshAppliedSpeed();
@@ -252,20 +251,20 @@ public class KartController : KartComponent
             return 0;
         }
 
-        var maxSpeed = IsBoosting ? maxSpeedBoosting : MaxSpeed;
+        var maxSpeed = IsBoosting ? maxSpeedBoosting : maxSpeedNormal;
         return maxSpeed;
     }
 
     private float GetAccelerationRate()
     {
         // Use lever position to determine acceleration rate
-        var direction = lever.value == false ? 1 : -1;
+        var direction = lever.value == true ? 1 : -1;
         return acceleration * direction * Time.deltaTime;
     }
 
     private void Steer()
     {
-        var steerInput = GetSteerInput();
+        var steerInput = GetSteerAmount();
 
         if (steerInput != 0)
         {
@@ -277,19 +276,20 @@ public class KartController : KartComponent
         }
 
         var steerAngle = steer * 45;
-      //  transform.Rotate(Vector3.up, steerAngle * Runner.DeltaTime);
+        transform.Rotate(Vector3.up, steerAngle * Time.deltaTime);
     }
     private float steerAmount;
     private float steer;
-    public void GetSteerAmount()
+    public float GetSteerAmount()
     {
         steerAmount= steeringWheel.value;
         steer = Mathf.MoveTowards(steer, steerAmount, 0.07f);
+        return steer;
     }
 
     private float GetSteerInput()
     {
-        var normalizedRotation = Mathf.InverseLerp(-maxSteeringAngle, maxSteeringAngle, steeringWheel.value*10);
+        var normalizedRotation = Mathf.InverseLerp(steeringWheel.minAngle, steeringWheel.maxAngle, steeringWheel.value*10);
         var steerInput = Mathf.Lerp(-1f, 1f, normalizedRotation);
         return steerInput;
     }
@@ -349,14 +349,12 @@ public class KartController : KartComponent
                 Quaternion.FromToRotation(model.transform.up * 2, hit.normal) * model.transform.rotation,
                 7.5f * Time.deltaTime);
         }
-
-        if (wasOffroad != IsOffroad)
+        else
         {
-            if (IsOffroad)
-                Kart.Animator.PlayOffroad();
-            else
-                Kart.Animator.StopOffroad();
+
         }
+
+       
     }
     private void UpdateTireRotation()
     {

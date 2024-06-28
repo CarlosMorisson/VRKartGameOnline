@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9002572599029672852}
   - component: {fileID: 2934532641717385380}
   - component: {fileID: 5229522056495613054}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: BlueKart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70,7 +70,7 @@ GameObject:
   - component: {fileID: 5780758548456559057}
   - component: {fileID: 1885925206394357525}
   - component: {fileID: 2351306034908378385}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Pedals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 3549196210984056865}
   - component: {fileID: 1783054887558978059}
   - component: {fileID: 6658846349709658080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Exhaust Backfire Smoke.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4969,7 +4969,7 @@ GameObject:
   - component: {fileID: 645830102511361243}
   - component: {fileID: 5599931684467626785}
   - component: {fileID: 865353702520142184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Speaker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5116,7 +5116,7 @@ GameObject:
   - component: {fileID: 3695386320055125593}
   - component: {fileID: 1925094880256631923}
   - component: {fileID: 6800743406537374104}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Exhaust Smoke.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9932,7 +9932,7 @@ GameObject:
   - component: {fileID: 1116409153154396868}
   - component: {fileID: 1116409153154396870}
   - component: {fileID: 1116409153154396871}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14746,7 +14746,7 @@ GameObject:
   - component: {fileID: 8550581643151793719}
   - component: {fileID: 1330552054689583862}
   - component: {fileID: 8067142826140613666}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: NetworkPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14845,7 +14845,7 @@ GameObject:
   - component: {fileID: 957847463414363229}
   - component: {fileID: 1864265934473599782}
   - component: {fileID: 2718222860596472316}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14929,7 +14929,7 @@ GameObject:
   - component: {fileID: 753860780896979498}
   - component: {fileID: 6663587696516789371}
   - component: {fileID: 2393219727264241374}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.F.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15013,7 +15013,7 @@ GameObject:
   - component: {fileID: 2028615978604027070}
   - component: {fileID: 2028615978604027068}
   - component: {fileID: 2028615978604027069}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Boost Particle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19826,7 +19826,7 @@ GameObject:
   - component: {fileID: 2028615978957269779}
   - component: {fileID: 2028615978957269777}
   - component: {fileID: 2028615978957269778}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Boost Particle.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24641,7 +24641,7 @@ GameObject:
   - component: {fileID: 2028615979719459538}
   - component: {fileID: 2028615979719459536}
   - component: {fileID: 2028615979719459537}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Boost Particle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29453,7 +29453,7 @@ GameObject:
   - component: {fileID: 2399502569511928922}
   - component: {fileID: 626940434257716848}
   - component: {fileID: 5504806671112829851}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Exhaust Smoke.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34267,7 +34267,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5547761218359865699}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: UIPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34300,7 +34300,7 @@ GameObject:
   - component: {fileID: 2294415301740281008}
   - component: {fileID: 2294415301740281010}
   - component: {fileID: 2294415301740281011}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39113,7 +39113,7 @@ GameObject:
   - component: {fileID: 2945219297302822746}
   - component: {fileID: 6655454768482190060}
   - component: {fileID: 8611424269902747889}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Front.Trim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39196,7 +39196,7 @@ GameObject:
   - component: {fileID: 6139555255724560115}
   - component: {fileID: 964013889205793929}
   - component: {fileID: 1394626675355236670}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39280,7 +39280,7 @@ GameObject:
   - component: {fileID: 3159953980301549909}
   - component: {fileID: 8743764425480983357}
   - component: {fileID: 7358334391405465518}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: KartAnimator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39401,7 +39401,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5671186845627208439}
   - component: {fileID: 3066212394219413978}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TireFX-BL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39532,7 +39532,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2528139716262922579}
   - component: {fileID: 4623212722445129625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39582,7 +39582,7 @@ GameObject:
   - component: {fileID: 2065572558022243122}
   - component: {fileID: 6340765246375028436}
   - component: {fileID: 3809162378976346175}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Drift Spark L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44403,7 +44403,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3714310519896372121}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Item Drop Node
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44435,7 +44435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2529689348844851849}
   - component: {fileID: 3346166732067006177}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44485,7 +44485,7 @@ GameObject:
   - component: {fileID: 865621272410062150}
   - component: {fileID: 5140791765466572960}
   - component: {fileID: 2627273939106844235}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Drift Spark R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49308,7 +49308,7 @@ GameObject:
   - component: {fileID: 4500662531755176023}
   - component: {fileID: 4500662531755176021}
   - component: {fileID: 4500662531755176020}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Boost Particle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54120,7 +54120,7 @@ GameObject:
   - component: {fileID: 4500662533005159995}
   - component: {fileID: 4500662533005159993}
   - component: {fileID: 4500662533005159992}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Boost Particle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58933,7 +58933,7 @@ GameObject:
   - component: {fileID: 4500662533054306710}
   - component: {fileID: 4500662533054306708}
   - component: {fileID: 4500662533054306711}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Boost Particle.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63747,7 +63747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9183840651738144886}
   - component: {fileID: 3254668630497253106}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TireFX-FR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63877,7 +63877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3944602706003806016}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Spark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63912,7 +63912,7 @@ GameObject:
   - component: {fileID: 4357146190645227286}
   - component: {fileID: 6088911027860687509}
   - component: {fileID: 4622027042172607190}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.B.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63996,7 +63996,7 @@ GameObject:
   - component: {fileID: 998126627602356028}
   - component: {fileID: 6619067283474723314}
   - component: {fileID: 3645749290716715317}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.F.L.Rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64079,7 +64079,7 @@ GameObject:
   - component: {fileID: 8050776727602892147}
   - component: {fileID: 5569691485352718668}
   - component: {fileID: 2206611423253578574}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.B.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64163,7 +64163,7 @@ GameObject:
   - component: {fileID: 2998267419113750434}
   - component: {fileID: 9065264094401877670}
   - component: {fileID: 4692520090601592305}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Offroad Dust L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68975,7 +68975,7 @@ GameObject:
   - component: {fileID: 2998267418969031534}
   - component: {fileID: 9065264094257179242}
   - component: {fileID: 4692520090456893757}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Offroad Dust R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73787,7 +73787,7 @@ GameObject:
   - component: {fileID: 4091498006929930308}
   - component: {fileID: 736519583221696638}
   - component: {fileID: 3395134488698088942}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.F.R.Rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73870,7 +73870,7 @@ GameObject:
   - component: {fileID: 2750423394172480306}
   - component: {fileID: 448795807447724929}
   - component: {fileID: 2934348647600921490}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78682,7 +78682,7 @@ GameObject:
   - component: {fileID: 6768973420730623346}
   - component: {fileID: 7988327598827729269}
   - component: {fileID: 4153708498352763993}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Axle.F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78767,7 +78767,7 @@ GameObject:
   - component: {fileID: 5072624343810219512}
   - component: {fileID: 813618667352684299}
   - component: {fileID: 2228712002326323616}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Grill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78850,7 +78850,7 @@ GameObject:
   - component: {fileID: 8356450674808504972}
   - component: {fileID: 5450283243350082133}
   - component: {fileID: 8566105346070315687}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.F.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78934,7 +78934,7 @@ GameObject:
   - component: {fileID: 622896562443487933}
   - component: {fileID: 5909364557120300969}
   - component: {fileID: 2456512780518071492}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.B.R.Rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79015,7 +79015,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2744704248374020404}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Spark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79049,7 +79049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7483248099729818368}
   - component: {fileID: 1584050841468248808}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TireFX-FL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79181,7 +79181,7 @@ GameObject:
   - component: {fileID: 8222550283847638862}
   - component: {fileID: 3852656925633055704}
   - component: {fileID: 2718551737688907492}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Engine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79266,7 +79266,7 @@ GameObject:
   - component: {fileID: 2657674945607489446}
   - component: {fileID: 1895104898470221661}
   - component: {fileID: 6898667070505284209}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Fins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79349,7 +79349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8758285045493402150}
   - component: {fileID: 9094372127877592451}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79397,7 +79397,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7858616861010148145}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Normal Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79432,7 +79432,7 @@ GameObject:
   - component: {fileID: 3927799935380170054}
   - component: {fileID: 1626749248125746677}
   - component: {fileID: 4040230476690396646}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84244,7 +84244,7 @@ GameObject:
   - component: {fileID: 4699028082440431493}
   - component: {fileID: 1721149481363290980}
   - component: {fileID: 1124089627879753280}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.B.L.Rim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84327,7 +84327,7 @@ GameObject:
   - component: {fileID: 5926117529385509382}
   - component: {fileID: 7318938646712823203}
   - component: {fileID: 4789262240415144297}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: FusionKartModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84420,7 +84420,7 @@ GameObject:
   - component: {fileID: 1750745213364930069}
   - component: {fileID: 1361891508811844166}
   - component: {fileID: 8138246991261566449}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: SteeringWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84501,7 +84501,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4138643617817847775}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Interpolation Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84535,7 +84535,7 @@ GameObject:
   - component: {fileID: 1060694746645625375}
   - component: {fileID: 276872033835450548}
   - component: {fileID: 8646790941003032686}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Drift Spark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89415,7 +89415,7 @@ GameObject:
   - component: {fileID: 6422461023037036623}
   - component: {fileID: 7585713378067982421}
   - component: {fileID: 624879573221243607}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Exhaust.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89501,7 +89501,7 @@ GameObject:
   - component: {fileID: 6434020398611134454}
   - component: {fileID: 8121629129862976988}
   - component: {fileID: 3775007325573695543}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Exhaust Backfire Smoke.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94315,7 +94315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3657030281110188100}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.F.L.Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94347,7 +94347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6209846435260202220}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: CarModel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94380,7 +94380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6727478467419933282}
   - component: {fileID: 4709957679206100724}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TireFX-BR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94512,8 +94512,7 @@ GameObject:
   - component: {fileID: 1092680052603629833}
   - component: {fileID: 4470436512019421263}
   - component: {fileID: 4712513991866533853}
-  - component: {fileID: 1969374557443290236}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94585,19 +94584,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &1969374557443290236
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7842123272951942658}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7870303265033758592
 GameObject:
   m_ObjectHideFlags: 0
@@ -94607,7 +94593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2640419446921859174}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Tire.F.R.Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94641,7 +94627,7 @@ GameObject:
   - component: {fileID: 1341266180771475982}
   - component: {fileID: 5781656865954223866}
   - component: {fileID: 4835807247550834150}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Exhaust.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94727,7 +94713,7 @@ GameObject:
   - component: {fileID: 5987569504775141278}
   - component: {fileID: 7323190366322506665}
   - component: {fileID: 3261708745398936049}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Fins.Trim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94810,7 +94796,7 @@ GameObject:
   - component: {fileID: 2166643714579985515}
   - component: {fileID: 1404713103067745984}
   - component: {fileID: 7446345975682901530}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Drift Spark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99690,7 +99676,7 @@ GameObject:
   - component: {fileID: 7757001668688901513}
   - component: {fileID: 3604863628462872092}
   - component: {fileID: 7487181947850198762}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Axle.B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99777,7 +99763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 741640010611902674}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TireFXHolder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99812,7 +99798,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6479374362743087093}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Car
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99889,9 +99875,121 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362816, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362818, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362820, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362822, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362824, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362826, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362828, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362830, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362832, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362834, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362836, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362838, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362840, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362842, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362844, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362846, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362912, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362914, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362916, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362918, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362920, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362922, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362924, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362926, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362928, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
       propertyPath: m_Name
       value: Custom Right Hand Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362932, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5686134208185362934, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
@@ -99941,9 +100039,121 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8758285045493402150}
     m_Modifications:
+    - target: {fileID: 109434732395284481, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284483, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284485, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284487, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284489, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284491, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284493, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284495, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284505, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284507, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       propertyPath: m_Name
       value: Custom Left Hand Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284511, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284577, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284579, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284581, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284583, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284585, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284587, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284589, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284591, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284593, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284595, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284597, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284599, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284601, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284603, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284605, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 109434732395284607, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 109434732395451517, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       propertyPath: m_RootOrder
