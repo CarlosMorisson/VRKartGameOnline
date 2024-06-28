@@ -8,11 +8,12 @@ TagManager:
   - Head
   - LeftHand
   - RightHand
+  - Car
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Kart
   - Water
   - UI
   - 

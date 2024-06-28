@@ -10,21 +10,21 @@ public class NetworkPlayer : MonoBehaviour
 {
     [Header("Online Transform")]
     [SerializeField]
-    Transform Head, LeftHand, RightHand;
+    Transform Head, LeftHand, RightHand, Car;
     [Header("Online Animation")]
     [SerializeField]
     Animator LeftHandAnimator, RightHandAnimator;
     private PhotonView _photonView;
     [SerializeField]
-    private Transform xrOrigin, _headRig, _leftHandRig, _rightHandRig;
+    private Transform xrOrigin, _headRig, _leftHandRig, _rightHandRig, _car;
     void Start()
     {
         _photonView = GetComponent<PhotonView>();
         xrOrigin = GameObject.FindGameObjectWithTag("Origin").transform;
         _headRig = GameObject.FindGameObjectWithTag("Head").transform; 
         _leftHandRig = GameObject.FindGameObjectWithTag("LeftHand").transform; ;
-        _rightHandRig = GameObject.FindGameObjectWithTag("RightHand").transform; 
-
+        _rightHandRig = GameObject.FindGameObjectWithTag("RightHand").transform;
+        _car = GameObject.FindGameObjectWithTag("Car").transform;
         if (_photonView.IsMine)
         {
             foreach (var item in GetComponentsInChildren<Renderer>())
@@ -44,6 +44,7 @@ public class NetworkPlayer : MonoBehaviour
             MapPosition(Head, _headRig);
             MapPosition(LeftHand, _leftHandRig);
             MapPosition(RightHand, _rightHandRig);
+            MapPosition(Car, _car);
 
             UpdateHandAnimation(InputDevices.GetDeviceAtXRNode(XRNode.LeftHand), LeftHandAnimator);
             UpdateHandAnimation(InputDevices.GetDeviceAtXRNode(XRNode.RightHand), RightHandAnimator);
